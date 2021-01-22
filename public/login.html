@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sba-food || login</title>
+    <link rel="stylesheet" href="css/tailwind.css">
+</head>
+<body class="text-gray-600 font-body">
+   <div class=" grid md:grid-cols-3">
+       <div class="md:col-span-1 md:flex md:justify-end">
+           <nav class=" text-right">
+               <div class=" flex justify-between items-center">
+                   <h1 class="font-blod uppercase p-4 border-b border-gray-200">
+                       <a href="/public" class=" hover:text-gray-900">Sba Bride</a>
+                   </h1>
+                   <div class="px-4  cursor-pointer md:hidden " id="burger">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                   </div>
+               </div>
+               <ul class=" text-sm mt-6 hidden md:block" id="menu">
+                   <li class=" py-1">
+                       <a href="index.html" class="px-4 flex justify-end border-r-4 border-white uppercase">
+                           <span>Home</span>
+                           <svg class="w-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+                       </a>
+                   </li>
+                   <li class="py-1">
+                        <a href="dirilis-ertugrul.html" class="px-4 flex justify-end border-r-4 border-white uppercase">
+                            <span>Ertugrul</span>
+                            <svg class="w-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                        </a>
+                    </li>
+                    <li class="py-1">
+                        <a href="pricing.html" class="px-4 flex justify-end border-r-4 border-white uppercase">
+                            <span>pricing</span>
+                            <svg class="w-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </a>
+                    </li>
+                   <li class="py-1">
+                        <a href="about.html" class="px-4 flex justify-end border-r-4 border-white uppercase">
+                            <span>About</span>
+                            <svg class="w-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </a>
+                    </li>
+                    <li class="py-1">
+                        <a href="contact.html" class="px-4 flex justify-end border-r-4 border-white uppercase">
+                            <span>Contact</span>
+                            <svg class="w-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        </a>
+                    </li>
+               </ul>
+           </nav>
+       </div> <!--end nav-->    
+       <main class=" px-16 py-6 bg-gray-100  md:col-span-2">
+           <div class=" flex justify-center md:justify-end">
+               <a href="login.html" class="btn text-red-400 border-red-400 md:border-2 hover:bg-red-400 hover:text-white transition ease-out duration-500">Log in</a>
+               <a href="signup.html" class="btn text-red-400 ml-2 border-red-400 md:border-2  hover:bg-red-400 hover:text-white hover:shadow-lg transition ease-out duration-500">sign up</a>
+            </div>
+
+            <header>
+                <h2 class="text-gray-700 text-6xl font-semibold text-center pt-5 pb-3 mt-12 border-b border-gray-200">Login</h2>
+            </header>
+
+            <div>
+
+                <div class="mt-8 grid grid-cols-1"> 
+                    <div class=" bg-white md:p-10 rounded">
+                        <form action="">
+                            <div class="p-4">
+                                <label for="email" class="block font-semibold text-2xl text-gray-600">Email</label>
+                                <input class=" py-2 px-3 rounded border-gray-400 border-2 block mt-2 w-full" type="email" name="email" value="sazzad@gmail.com" placeholder="Enter your Email" required autofocus>
+                            </div>
+                            <div class="p-4">
+                                <label for="password" class="block font-semibold text-2xl text-gray-600">Password</label>
+                                <input class="py-2 px-3 rounded border-gray-400 border-2 block mt-2 w-full" type="password" name="password" value="" placeholder="Enter your Email" required autofocus>
+                            </div>
+                            <div class=" flex justify-end py-5 pr-4">
+                                <button type="submit" name="submit" class="rounded py-3 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider text-white  bg-green-400 hover:shadow-inner transform hover:scale-110 hover:bg-opacity-50 transition ease-out duration-300">Login</button>
+                            </div>
+    
+                        </form>
+                    </div>
+                    
+                </div>
+
+                
+
+            </div>
+       </main>
+
+   </div>
+   <footer>
+        <div class="flex py-10 pr-0 bg-gray-200 text-gray-700 justify-center hover:text-gray-900">
+            <span class="text-sm md:text-xl">Copyright &copy; 2020<a class=" text-red-400 hover:text-red-700 uppercase" href="/public/"> SBA Bride</a> All Rights Reserved</span>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
